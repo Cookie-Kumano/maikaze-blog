@@ -1,0 +1,14 @@
+advent:
+  label: Advent Calendar
+  permalink: /advent
+  description: アドベントカレンダーに寄稿した記事です。
+
+apple:
+  label: Apple
+  permalink: /apple
+  description: Apple 製品に関連する記事です。
+
+maikaze:
+  label: Maikaze Server
+  permalink: /maikaze
+  description: 舞風サーバに関連する記事です。

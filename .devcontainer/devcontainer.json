@@ -1,0 +1,23 @@
+{
+  "name": "Blog Maikaze Dev Container",
+  "build": {
+    "context": "..",
+    "dockerfile": "../Dockerfile",
+    "target": "dev"
+  },
+  "postCreateCommand": "npm install && npm run start -- --host 0.0.0.0 --poll 1000",
+  "forwardPorts": [3000],
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
+      "settings": {
+        "editor.formatOnSave": true,
+        "javascript.format.enable": false,
+        "eslint.enable": true
+      }
+    }
+  },
+  "containerEnv": {
+    "WATCHPACK_POLLING": "true"
+  }
+}
