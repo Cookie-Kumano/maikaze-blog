@@ -41,12 +41,12 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and Push Docusaurus image
-        uses: docker/build-and-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: .
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          target: prod
+          target: prod-server
           cache-from: type=gha
           cache-to: type=gha,mode=max
