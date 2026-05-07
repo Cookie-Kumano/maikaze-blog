@@ -1,0 +1,10 @@
+{
+  "overrides": [
+    {
+      "files": "blog/**/*.md",
+      "options": {
+        "parser": "mdx"
+      }
+    }
+  ]
+}

@@ -14,7 +14,7 @@ slug: yr-advent2022-my-new-gears
 
 PC パーツのアップグレードなどの設備更新がほとんどです。
 
-<!-- truncate -->
+{/* truncate */}
 
 ## 今年買ったもの
 

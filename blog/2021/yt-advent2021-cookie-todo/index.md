@@ -22,7 +22,7 @@ slug: yt-advent2021-cookie-todo
 
 今回は雑に今年の振り返りと来年の意気込み的なやつをやります。
 
-<!-- truncate -->
+{/* truncate */}
 
 ### 今年の振り返り
 

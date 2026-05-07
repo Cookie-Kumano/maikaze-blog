@@ -5,8 +5,11 @@
     "dockerfile": "../Dockerfile",
     "target": "dev"
   },
-  "postCreateCommand": "npm install && npm run start -- --host 0.0.0.0 --poll 1000",
+  "postCreateCommand": "npm install",
+  "postStartCommand": "npm run start -- --host 0.0.0.0 --poll 1000",
   "forwardPorts": [3000],
+  "remoteUser": "node",
+  "updateRemoteUserUID": true,
   "customizations": {
     "vscode": {
       "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
