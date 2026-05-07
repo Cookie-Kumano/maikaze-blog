@@ -10,7 +10,7 @@ slug: yt-advent2021-macpro
 
 私の担当分も残すところ 2 回となりました。今回は、私の相棒である Mac Pro Mid 2010 の最新の情報をお伝えするよ。
 
-<!-- truncate -->
+{/* truncate */}
 
 ### Beauty on the outside.
 
